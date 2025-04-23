@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,300&display=swap');
+/* General Layout */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  
+  /* Main Content */
+  .main-contents {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Profile Card */
+  .profile-cards {
+    background-color: #fb2626;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 5px black;
+
+  }
+  .profile-cards:hover{
+    box-shadow: 5px 5px 15px black;
+    color: azure;
+    background-color: #d21414;
+
+  }
+  .profile-icons{
+    font-size: 500%;
+    margin-left: 140px;
+
+  }
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+  }
+  .user-name{
+    font-size: 30px;
+  }
+  .email {
+    font-size: 14px;
+  }
+  .exam-count{
+    margin-right: 200px;
+    font-size: 22px;
+  }
+  
+  /* Exam Status */
+  .exam-statuss{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 60px;
+  }
+  
+  .exam-cards {
+    background-color: #b41818;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 2px 2px 5px black;
+  }
+  .exam-cards:hover{
+    background-color: #941010;
+    color: azure;
+    box-shadow: 5px 5px 10px black;
+}
+  
+  
+  .statuss {
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  .results {
+    width: 20%;
+    background-color: #fd1919;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 40%;
+    border-radius: 6px;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+  }
+  
+  .results:hover {
+    background-color: #bd0202;
+    color: azure;
+    box-shadow: 5px 5px 10px black;
+  }
+  

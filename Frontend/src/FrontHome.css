@@ -1,0 +1,109 @@
+/* HomePage.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,300&display=swap');
+
+.Home-container {
+  min-height: 100vh;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Navbar */
+.head {
+  background-color: rgba(212, 212, 212, 1);
+  padding: 35px 24px;
+  display: flex;
+  
+  justify-content:space-between;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+ .Hlogo {
+  position: absolute;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+ .Hlogo a {
+  color:rgb(233, 50, 50);
+  font-weight: 700;
+  padding: 15px 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: relative;
+  text-shadow: 5px 0px 8px rgb(225, 83, 83);
+}
+
+ .Hlogo a span {
+  font-family: 'Clicker Script', cursive;
+  font-size: 70px;
+}
+
+
+.login-button {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 88%;
+}
+
+/* Main Content */
+.main {
+  flex: 1;
+  background-image: url("background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.b{
+ margin-top: 13%;
+}
+.c{
+  display:flex;
+  flex-direction: row;
+  gap:100px;
+  align-items: center;
+}
+.box{
+  border: 2px solid black;
+  padding:25px 50px ;
+  border-radius: 26px;
+  border:none;
+  background-color: rgb(245, 236, 209);
+  box-shadow: 5px 5px 10px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 27px;
+  z-index: 1;
+}
+.box:hover{
+  border: 1px solid rgb(237, 192, 134);
+  background-color: rgb(215, 202, 161);
+  box-shadow: 5px 5px 20px rgb(137, 137, 77);
+}
+
+.text-section h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+
+
+.foot{
+  background-color: rgba(212, 212, 212, 1);
+  padding: 15px 24px;
+  text-align: center;
+  
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,300&display=swap');
+
+.student-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .profile-card {
+    width: 85%;
+    background-color: rgb(196, 170, 41);
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 5px black;
+
+  }
+  .profile-card:hover{
+    border: 1px solid rgb(230, 224, 224);
+    box-shadow: 5px 5px 15px black;
+    background-color: rgb(162, 136, 7);
+
+  }
+  .profile-icon{
+    font-size: 500%;
+    margin-left: 140px;
+
+  }
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+  }
+  .user-name{
+    font-size: 30px;
+  }
+  .email {
+    font-size: 14px;
+  }
+  .exam-count{
+    margin-right: 200px;
+    font-size: 22px;
+  }
+  .bot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 5%;
+    background-color: rgb(196, 170, 41);
+    padding: 0 30px;
+    
+    padding-right: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px ;
+  }
+  .bot:hover{
+    border: 2px solid white;
+    background-color: rgb(162, 136, 7);
+    box-shadow: 10px 10px 20px ;
+  }
+  .student-image {
+    margin: 20px 0;
+   
+  }
+  
+  .student-image img {
+    width: 520px;
+    height: auto;
+  }
+  
+  .view-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .view-buttons button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    cursor: pointer;
+    
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .view-buttons button:hover {
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px white;
+  }
+  

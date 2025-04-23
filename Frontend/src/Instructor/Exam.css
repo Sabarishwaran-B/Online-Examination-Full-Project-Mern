@@ -1,0 +1,141 @@
+.add-course-container {
+    padding: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  /* Add Course Section */
+  .course-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  
+  .add-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border: 2px dashed #333;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(111, 93, 93);
+
+  }
+  .add-course:hover{
+    background-color: #9a1010;
+    color: whitesmoke;
+    box-shadow: 2px 2px 5px rgb(127, 120, 120);
+
+  }
+  
+  .add-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  
+  .course-card {
+    background-color: #fb0606;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 5px black;
+  }
+  .course-card:hover{
+    box-shadow: 5px 5px 10px black;
+    background-color: #9a1010;
+    color: rgb(243, 244, 246);
+  }
+  .status {
+    font-weight: bold;
+  }
+  
+  .edit-btn {
+    background-color: #222;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+  }
+  
+  .edit-btn:hover {
+    background-color: #555;
+  }
+  
+  /* Exam Status Table */
+  .exam-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .exam-table th, .exam-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .exam-table th {
+    background-color: #444;
+    color: white;
+  }
+  
+  /* View Results Button */
+  .view-results {
+    width: 20%;
+    background-color: #fb0606;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 40%;
+    border-radius: 6px;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+  }
+  
+  .view-results:hover {
+    background-color: #9a1010;
+  }
+  .start-bt {
+    background-color: #561505;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .start-bt:hover{
+    box-shadow: 2px 2px 2px white;
+  }
+ 
+  
+  .delete-btn {
+    background-color: #62242a;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .delete-btn:hover{
+    box-shadow: 2px 2px 2px white;
+  }
+  

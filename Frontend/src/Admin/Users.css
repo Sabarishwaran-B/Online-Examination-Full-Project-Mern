@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,300&display=swap');
+.users-container {
+    
+    padding: 20px;
+    background: #847c7c;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #6f6a6a;
+    color: rgb(179, 183, 185);
+    letter-spacing: 2px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .tabs .active {
+    background: #1f1e1e;
+    color: white;
+  }
+  
+  .add-button {
+    float: right;
+    padding: 8px 12px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+  }
+  
+  .users-table {
+    margin-top: 15px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+  }
+  
+  .users-table th,
+  .users-table td {
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .details {
+    color: green;
+    cursor: pointer;
+  }
+  
+  .edit-actions .remove {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .edit-actions .update {
+    color: rgb(253, 6, 6);
+    cursor: pointer;
+  }
+  
+  .exams{
+    margin-top: 7%;
+  }
+  .users-container {
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+  }
+  
+  .tabs button {
+    margin: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  .tabs .active {
+    background-color: rgb(255, 0, 0);
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .add-user {
+    
+    margin: 15px;
+  }
+  
+  .add-user input {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal; 
+    background-color: rgb(255, 51, 0);
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    
+  }
+  .add-user input:focus{
+    background-color: rgb(71, 13, 13);
+    border: #ddd;
+    box-shadow: 3px 3px 5px rgb(93, 90, 90);
+  }
+  .add-user input::placeholder{
+    color: azure;
+  }
+  .add-user .add-btn, .update-btn {
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  .add-btn{
+    background-color: rgb(8, 166, 5);
+    color: aliceblue;
+  }
+  .add-btn:hover{
+    background-color: green;
+  }
+  .users-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .users-table th, .users-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    margin-right: 3px;
+    cursor: pointer;
+  }
+ .delete-btn:hover{
+  background-color: rgb(255, 0, 0);
+ }

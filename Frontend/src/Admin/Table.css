@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,300&display=swap');
+.table-container {
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+  }
+  .rem{
+    cursor: pointer;
+    color: red;
+  }
+  .rem:hover{
+    background-color: #504e4e;
+    border-radius: 4px;
+  }
+  
+.clickable {
+  cursor: pointer;
+  color: #ff8400;
+  text-decoration: underline;
+}
+
+.exam-details {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f2f2f2;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.exam-details button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: rgb(254, 30, 30);
+  color: #f2f2f2;
+}
+.exam-details button:hover{
+  background-color: rgb(217, 20, 20);
+}
+.exam-details ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.exam-details li {
+  margin-bottom: 10px;
+}
+
+.exam-details li ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.exam-details li ul li {
+  margin-bottom: 3px;
+}
